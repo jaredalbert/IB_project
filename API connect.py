@@ -44,7 +44,7 @@ def run_loop():
 
 app = IBapi()
 
-app.connect('127.0.0.1', 7496, 123)
+app.connect('127.0.0.1', 7497, 123)
 
  
 
@@ -84,7 +84,7 @@ queryTime = (datetime.datetime.today() - datetime.timedelta(days=1)).strftime("%
 
  
 
-app.reqHistoricalData(4102, stock, queryTime,"100 D", "10 mins", "MIDPOINT", 1, 1, False, [])
+app.reqHistoricalData(4102, stock, queryTime,"1 D", "10 mins", "MIDPOINT", 1, 1, False, [])
 
 time.sleep(5) #sleep to allow enough time for data to be returned
 
