@@ -63,7 +63,7 @@ class EWrapper:
     def connectAck(self):
         """ callback signifying completion of successful connection """
         self.logAnswer(current_fn_name(), vars())
-
+        return self.logAnswer(current_fn_name(), vars())
 
     def marketDataType(self, reqId:TickerId, marketDataType:int):
         """TWS sends a marketDataType(type) callback to the API, where

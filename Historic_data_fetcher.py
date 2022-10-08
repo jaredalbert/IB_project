@@ -48,7 +48,7 @@ class MyWrapper(EWrapper):
         app.reqHistoricalData(4102, fx, queryTime,"1 M", "1 day", "MIDPOINT", 1, 1, False, [])
 
 app = EClient(MyWrapper()) #1 create wrapper subclass and pass it to EClient
-app.connect("127.0.0.1", 7496, clientId=123) #2 connect to TWS/IBG
+app.connect("127.0.0.1", 7497, clientId=123) #2 connect to TWS/IBG
 app.run() #3 start message thread
 
 
