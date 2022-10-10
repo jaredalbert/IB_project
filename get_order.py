@@ -4,16 +4,20 @@ from ibapi.contract import *
 from ibapi.order import * 
 
 import threading
+import pickle
 import datetime 
 import time 
 import math
 import queue
 
 
+
+
+
 def contractCreate():
     # Fills out the contract object
     contract1 = Contract()  # Creates a contract object from the import
-    contract1.symbol = "MSFT"   # Sets the ticker symbol 
+    contract1.symbol = "VIEW"   # Sets the ticker symbol 
     contract1.secType = "STK"   # Defines the security type as stock
     contract1.currency = "USD"  # Currency is US dollars 
     # In the API side, NASDAQ is always defined as ISLAND in the exchange field
@@ -28,16 +32,18 @@ def orderCreate():
     order1.orderType = "MKT"    # Sets order type to market buy
     order1.transmit = True
     #order1.lmtPrice = .22
-    order1.totalQuantity = 10   # Setting a static quantity of 10 
+    order1.totalQuantity = 15   # Setting a static quantity of 10 
     return order1   # Returns the order object 
 
-def orderExecution(app):
+def orderExecution(app, order_id):
+    
     #Places the order with the returned contract and order objects 
     contractObject = contractCreate()
     orderObject = orderCreate()
-    nextID = 117
+    nextID = order_id
     app.placeOrder(nextID, contractObject, orderObject)
-    print("order was placed")
+    print(f"order was placed with nextID: {nextID}")
+    
 
 class TestWrapper(EWrapper):
 
@@ -125,7 +131,11 @@ class TestApp(TestWrapper, TestClient):
         #start listening for errors
         self.init_error()
 
-def get_order():
+
+
+def place_order():
+    
+    
     print ('before start')
     
     app = TestApp('127.0.0.1', 7497, 0)
@@ -140,11 +150,61 @@ def get_order():
     print (requested_time)
 
     #app.disconnect()
-
+    
+    with open ('pickle.pk','rb') as file:#this persists the orderID since 
+        order_id = pickle.load(file) #the API needs a new unique number for each order
+        
 
     time.sleep(2)
-    orderExecution(app)  
-      
+    orderExecution(app, order_id) 
+
+    order_id+=1
+    with open('pickle.pk', 'wb') as file:
+        pickle.dump(order_id, file)
+    
+    
+    print(order_id)
+    
+
+
+""" def manage_order():
+    global order_id
+    order_id = 400
+    def place_order():
+        global order_id
+        
+        print ('before start')
+        
+        app = TestApp('127.0.0.1', 7497, 0)
+        
+        print ('The program has begun')
+
+        requested_time = app.server_clock()
+
+        
+        print("")
+        print ('This is the current time from the server ')
+        print (requested_time)
+
+        #app.disconnect()
+        #order_id = 260
+        
+        time.sleep(2)
+        orderExecution(app, order_id) 
+        order_id+=1
+        
+        
+        print(order_id)
+    return place_order
+ """
+
+if __name__ == '__main__':
+    
+    place_order() 
+   
+   
+    
+
 '''   
 if "__main__" == __name__:
     print ('before start')
@@ -164,11 +224,14 @@ if "__main__" == __name__:
 
 
 time.sleep(2)
-orderExecution(app) 
+orderExecution(app)
+print (order_id)
 
 
 '''
+def add():
+    return 3 + 4
 
- 
-
-
+def submit_function():
+    x = add()
+    print (f'{x} submit function was pressed')
