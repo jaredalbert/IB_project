@@ -1,0 +1,13 @@
+(MainThread) 221014_19:20:04.844 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm.nj
+(MainThread) 221014_19:20:04.846 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm
+(MainThread) 221014_19:20:04.848 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:hkhmds
+(MainThread) 221014_19:20:04.849 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:fundfarm
+(MainThread) 221014_19:20:04.851 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:ushmds
+(MainThread) 221014_19:20:04.852 ERROR wrapper.py:56 ERROR -1 2158 Sec-def data farm connection is OK:secdefil
+(MainThread) 221014_19:20:04.853 ERROR wrapper.py:56 ERROR 2147483647 321 Error validating request.-'ce' : cause - FA data operations ignored for non FA customers.
+(MainThread) 221014_19:20:04.855 ERROR wrapper.py:56 ERROR 2147483647 321 Error validating request.-'ce' : cause - FA data operations ignored for non FA customers.
+(MainThread) 221014_19:20:04.856 ERROR wrapper.py:56 ERROR 2147483647 321 Error validating request.-'ce' : cause - FA data operations ignored for non FA customers.
+(MainThread) 221014_19:20:04.857 ERROR wrapper.py:56 ERROR 1000 321 Error validating request.-'b7' : cause - FA data operations ignored for non FA customers.
+(MainThread) 221014_19:20:04.859 ERROR wrapper.py:56 ERROR 1001 321 Error validating request.-'b7' : cause - FA data operations ignored for non FA customers.
+(MainThread) 221014_19:20:04.860 ERROR wrapper.py:56 ERROR 1002 321 Error validating request.-'b7' : cause - FA data operations ignored for non FA customers.
+(MainThread) 221014_19:20:04.861 ERROR wrapper.py:56 ERROR 1003 321 Error validating request.-'b7' : cause - FA data operations ignored for non FA customers.

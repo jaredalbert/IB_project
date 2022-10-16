@@ -42,7 +42,7 @@ def orderExecution(app, order_id):
     orderObject = orderCreate()
     nextID = order_id
     app.placeOrder(nextID, contractObject, orderObject)
-    print(f"order was placed with nextID: {nextID}")
+    print(f"order was placed with nextID: {nextID, contractObject, orderObject}")
     
 
 class TestWrapper(EWrapper):
@@ -133,13 +133,12 @@ class TestApp(TestWrapper, TestClient):
 
 
 
-def place_order():
-    
+def place_order():    
     
     print ('before start')
     
     app = TestApp('127.0.0.1', 7497, 0)
-    
+    time.sleep(2)
     print ('The program has begun')
 
     requested_time = app.server_clock()
@@ -149,58 +148,32 @@ def place_order():
     print ('This is the current time from the server ')
     print (requested_time)
 
-    #app.disconnect()
+    
     
     with open ('pickle.pk','rb') as file:#this persists the orderID since 
         order_id = pickle.load(file) #the API needs a new unique number for each order
         
 
-    time.sleep(2)
+    
     orderExecution(app, order_id) 
 
-    order_id+=1
+    order_id += 1
+
     with open('pickle.pk', 'wb') as file:
         pickle.dump(order_id, file)
     
     
-    print(order_id)
-    
+    print('order id: ', order_id)
+    app.disconnect()
 
-
-""" def manage_order():
-    global order_id
-    order_id = 400
-    def place_order():
-        global order_id
-        
-        print ('before start')
-        
-        app = TestApp('127.0.0.1', 7497, 0)
-        
-        print ('The program has begun')
-
-        requested_time = app.server_clock()
-
-        
-        print("")
-        print ('This is the current time from the server ')
-        print (requested_time)
-
-        #app.disconnect()
-        #order_id = 260
-        
-        time.sleep(2)
-        orderExecution(app, order_id) 
-        order_id+=1
-        
-        
-        print(order_id)
-    return place_order
- """
 
 if __name__ == '__main__':
     
-    place_order() 
+    for _ in range(2):
+        place_order()
+        print('placed')
+    
+
    
    
     

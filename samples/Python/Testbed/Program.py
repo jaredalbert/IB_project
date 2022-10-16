@@ -231,7 +231,7 @@ class TestApp(TestWrapper, TestClient):
         super().nextValidId(orderId)
 
         logging.debug("setting nextValidOrderId: %d", orderId)
-        self.nextValidOrderId = orderId
+        self.nextValidOrderId = int(orderId)
         print("NextValidId:", orderId)
     # ! [nextvalidid]
 
@@ -265,7 +265,7 @@ class TestApp(TestWrapper, TestClient):
             #self.newsOperations_req()
             #self.miscelaneousOperations()
             #self.linkingOperations()
-            self.financialAdvisorOperations()
+            #self.financialAdvisorOperations()
             #self.orderOperations_req()
             #self.rerouteCFDOperations()
             #self.marketRuleOperations()
@@ -1037,7 +1037,7 @@ class TestApp(TestWrapper, TestClient):
     # ! [historicalticks]
     def historicalTicks(self, reqId: int, ticks: ListOfHistoricalTick, done: bool):
         for tick in ticks:
-            print("HistoricalTick. ReqId:", reqId, tick)
+            print("HistoricaselflTick. ReqId:", reqId, tick)
     # ! [historicalticks]
 
     @iswrapper
@@ -1961,19 +1961,23 @@ def main():
         if args.global_cancel:
             app.globalCancelOnly = True
         # ! [connect]
-        app.connect("127.0.0.1", args.port, clientId=0)
+        app.connect("127.0.0.1", 7497, clientId=0)
         # ! [connect]
         print("serverVersion:%s connectionTime:%s" % (app.serverVersion(),
                                                       app.twsConnectionTime()))
+        print ('requesting all open orders')
+        #app.orderOperations_req()
+        
 
         # ! [clientrun]
         app.run()
         # ! [clientrun]
+        
     except:
         raise
-    finally:
-        app.dumpTestCoverageSituation()
-        app.dumpReqAnsErrSituation()
+    #finally:
+        #app.dumpTestCoverageSituation()
+        #app.dumpReqAnsErrSituation()
 
 
 if __name__ == "__main__":

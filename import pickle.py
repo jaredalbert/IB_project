@@ -1,5 +1,5 @@
 import pickle 
-count = 500
+count = 1000
 with open('pickle.pk', 'wb') as file:
     pickle.dump(count, file)
 

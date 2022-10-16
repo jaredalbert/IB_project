@@ -1,0 +1,7 @@
+def resample_rows_weighted(df, column=\'finalwgt\', seed=17):
+    """Resamples a DataFrame using probabilities proportional to given column.\n\n    df: DataFrame\n    column: string column name to use as weights\n\n    returns: DataFrame\n    """
+    np.random.seed(seed)
+    weights = df[column] / sum(df[column])
+    indices = np.random.choice(df.index, len(df), replace=True, p=weights)
+    sample = df.loc[indices]
+    return sample

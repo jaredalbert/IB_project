@@ -1,0 +1,252 @@
+(MainThread) 221015_12:34:49.710 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm.nj
+(MainThread) 221015_12:34:49.711 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm
+(MainThread) 221015_12:34:49.712 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:hkhmds
+(MainThread) 221015_12:34:49.713 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:fundfarm
+(MainThread) 221015_12:34:49.713 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:ushmds
+(MainThread) 221015_12:34:49.714 ERROR wrapper.py:56 ERROR -1 2158 Sec-def data farm connection is OK:secdefil
+(MainThread) 221015_12:34:49.717 ERROR wrapper.py:56 ERROR 659 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.718 ERROR wrapper.py:56 ERROR 659 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.720 ERROR wrapper.py:56 ERROR 660 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.721 ERROR wrapper.py:56 ERROR 660 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.723 ERROR wrapper.py:56 ERROR 661 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.724 ERROR wrapper.py:56 ERROR 661 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.726 ERROR wrapper.py:56 ERROR 662 321 Error validating request.-'bN' : cause - The size value cannot be zero:
+(MainThread) 221015_12:34:49.728 ERROR wrapper.py:56 ERROR 663 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.729 ERROR wrapper.py:56 ERROR 663 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.730 ERROR wrapper.py:56 ERROR 664 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.732 ERROR wrapper.py:56 ERROR 664 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.734 ERROR wrapper.py:56 ERROR 665 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.736 ERROR wrapper.py:56 ERROR 665 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.738 ERROR wrapper.py:56 ERROR 666 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.740 ERROR wrapper.py:56 ERROR 666 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.741 ERROR wrapper.py:56 ERROR 667 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.743 ERROR wrapper.py:56 ERROR 667 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.744 ERROR wrapper.py:56 ERROR 668 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.745 ERROR wrapper.py:56 ERROR 668 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.747 ERROR wrapper.py:56 ERROR 669 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.747 ERROR wrapper.py:56 ERROR 669 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.748 ERROR wrapper.py:56 ERROR 670 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.750 ERROR wrapper.py:56 ERROR 670 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.751 ERROR wrapper.py:56 ERROR 671 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.753 ERROR wrapper.py:56 ERROR 671 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.754 ERROR wrapper.py:56 ERROR 672 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.756 ERROR wrapper.py:56 ERROR 672 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.757 ERROR wrapper.py:56 ERROR 673 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.759 ERROR wrapper.py:56 ERROR 673 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.760 ERROR wrapper.py:56 ERROR 674 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.762 ERROR wrapper.py:56 ERROR 674 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.763 ERROR wrapper.py:56 ERROR 675 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.765 ERROR wrapper.py:56 ERROR 675 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.766 ERROR wrapper.py:56 ERROR 676 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.767 ERROR wrapper.py:56 ERROR 676 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.769 ERROR wrapper.py:56 ERROR 677 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.770 ERROR wrapper.py:56 ERROR 677 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.771 ERROR wrapper.py:56 ERROR 678 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.772 ERROR wrapper.py:56 ERROR 678 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.774 ERROR wrapper.py:56 ERROR 679 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.776 ERROR wrapper.py:56 ERROR 679 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.777 ERROR wrapper.py:56 ERROR 680 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.779 ERROR wrapper.py:56 ERROR 680 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.781 ERROR wrapper.py:56 ERROR 681 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.782 ERROR wrapper.py:56 ERROR 681 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.784 ERROR wrapper.py:56 ERROR 682 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.785 ERROR wrapper.py:56 ERROR 682 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.787 ERROR wrapper.py:56 ERROR 683 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.788 ERROR wrapper.py:56 ERROR 683 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.790 ERROR wrapper.py:56 ERROR 684 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.792 ERROR wrapper.py:56 ERROR 684 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.794 ERROR wrapper.py:56 ERROR 685 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.796 ERROR wrapper.py:56 ERROR 685 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.798 ERROR wrapper.py:56 ERROR 686 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.799 ERROR wrapper.py:56 ERROR 686 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.802 ERROR wrapper.py:56 ERROR 687 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.804 ERROR wrapper.py:56 ERROR 687 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.806 ERROR wrapper.py:56 ERROR 688 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.808 ERROR wrapper.py:56 ERROR 688 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.810 ERROR wrapper.py:56 ERROR 689 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.812 ERROR wrapper.py:56 ERROR 689 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.814 ERROR wrapper.py:56 ERROR 690 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.817 ERROR wrapper.py:56 ERROR 690 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.821 ERROR wrapper.py:56 ERROR 691 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.823 ERROR wrapper.py:56 ERROR 691 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.824 ERROR wrapper.py:56 ERROR 693 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.826 ERROR wrapper.py:56 ERROR 693 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.829 ERROR wrapper.py:56 ERROR 694 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.831 ERROR wrapper.py:56 ERROR 694 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.833 ERROR wrapper.py:56 ERROR 661 200 No security definition has been found for the request
+(MainThread) 221015_12:34:49.835 ERROR wrapper.py:56 ERROR 684 200 No security definition has been found for the request
+(MainThread) 221015_12:34:49.837 ERROR wrapper.py:56 ERROR 695 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.840 ERROR wrapper.py:56 ERROR 695 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.841 ERROR wrapper.py:56 ERROR 696 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.843 ERROR wrapper.py:56 ERROR 696 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.846 ERROR wrapper.py:56 ERROR 697 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.847 ERROR wrapper.py:56 ERROR 697 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.850 ERROR wrapper.py:56 ERROR 669 200 No security definition has been found for the request
+(MainThread) 221015_12:34:49.862 ERROR wrapper.py:56 ERROR 696 10195 Invalid order parameters supplied when trying to set "Use parent trade price at the time of fill" on an order: server: 0 order: 696 parent: 695
+(MainThread) 221015_12:34:49.864 ERROR wrapper.py:56 ERROR 680 200 No security definition has been found for the request
+(MainThread) 221015_12:34:49.865 ERROR wrapper.py:56 ERROR 688 200 No security definition has been found for the request
+(MainThread) 221015_12:34:49.867 ERROR wrapper.py:56 ERROR 665 200 No security definition has been found for the request
+(MainThread) 221015_12:34:49.868 ERROR wrapper.py:56 ERROR 666 200 No security definition has been found for the request
+(MainThread) 221015_12:34:49.870 ERROR wrapper.py:56 ERROR 672 200 No security definition has been found for the request
+(MainThread) 221015_12:34:49.872 ERROR wrapper.py:56 ERROR 667 200 No security definition has been found for the request
+(MainThread) 221015_12:34:49.874 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usopt
+(MainThread) 221015_12:34:49.875 ERROR wrapper.py:56 ERROR 698 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.877 ERROR wrapper.py:56 ERROR 698 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.879 ERROR wrapper.py:56 ERROR 699 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.881 ERROR wrapper.py:56 ERROR 699 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.883 ERROR wrapper.py:56 ERROR 700 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.885 ERROR wrapper.py:56 ERROR 700 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.887 ERROR wrapper.py:56 ERROR 701 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.889 ERROR wrapper.py:56 ERROR 701 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.890 ERROR wrapper.py:56 ERROR 702 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.892 ERROR wrapper.py:56 ERROR 702 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.894 ERROR wrapper.py:56 ERROR 703 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.896 ERROR wrapper.py:56 ERROR 703 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.898 ERROR wrapper.py:56 ERROR 704 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.900 ERROR wrapper.py:56 ERROR 704 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.903 ERROR wrapper.py:56 ERROR 705 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.905 ERROR wrapper.py:56 ERROR 705 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.908 ERROR wrapper.py:56 ERROR 706 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.910 ERROR wrapper.py:56 ERROR 706 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.912 ERROR wrapper.py:56 ERROR 707 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.914 ERROR wrapper.py:56 ERROR 707 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.916 ERROR wrapper.py:56 ERROR 708 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.919 ERROR wrapper.py:56 ERROR 708 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.921 ERROR wrapper.py:56 ERROR 709 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.923 ERROR wrapper.py:56 ERROR 709 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.927 ERROR wrapper.py:56 ERROR 710 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.929 ERROR wrapper.py:56 ERROR 710 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.932 ERROR wrapper.py:56 ERROR 711 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.933 ERROR wrapper.py:56 ERROR 711 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.936 ERROR wrapper.py:56 ERROR 712 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.938 ERROR wrapper.py:56 ERROR 712 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.940 ERROR wrapper.py:56 ERROR 713 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.941 ERROR wrapper.py:56 ERROR 713 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.943 ERROR wrapper.py:56 ERROR 714 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.945 ERROR wrapper.py:56 ERROR 714 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.947 ERROR wrapper.py:56 ERROR 715 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.948 ERROR wrapper.py:56 ERROR 715 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.950 ERROR wrapper.py:56 ERROR 716 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.952 ERROR wrapper.py:56 ERROR 716 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.955 ERROR wrapper.py:56 ERROR 717 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221015_12:34:49.957 ERROR wrapper.py:56 ERROR 717 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221015_12:34:50.057 ERROR wrapper.py:56 ERROR 698 10205 Cash Quantity cannot be send in monetaryValue field in Algo. Please try sending in Cash Quantity field.
+(MainThread) 221015_12:34:50.059 ERROR wrapper.py:56 ERROR 699 10205 Cash Quantity cannot be send in monetaryValue field in Algo. Please try sending in Cash Quantity field.
+(MainThread) 221015_12:34:50.061 ERROR wrapper.py:56 ERROR 702 10205 Cash Quantity cannot be send in monetaryValue field in Algo. Please try sending in Cash Quantity field.
+(MainThread) 221015_12:34:50.063 ERROR wrapper.py:56 ERROR 703 10205 Cash Quantity cannot be send in monetaryValue field in Algo. Please try sending in Cash Quantity field.
+(MainThread) 221015_12:34:50.066 ERROR wrapper.py:56 ERROR 707 10205 Cash Quantity cannot be send in monetaryValue field in Algo. Please try sending in Cash Quantity field.
+(MainThread) 221015_12:34:50.068 ERROR wrapper.py:56 ERROR 708 10205 Cash Quantity cannot be send in monetaryValue field in Algo. Please try sending in Cash Quantity field.
+(MainThread) 221015_12:34:50.070 ERROR wrapper.py:56 ERROR 709 10205 Cash Quantity cannot be send in monetaryValue field in Algo. Please try sending in Cash Quantity field.
+(MainThread) 221015_12:34:50.071 ERROR wrapper.py:56 ERROR 710 10205 Cash Quantity cannot be send in monetaryValue field in Algo. Please try sending in Cash Quantity field.
+(MainThread) 221015_12:34:50.073 ERROR wrapper.py:56 ERROR 711 10205 Cash Quantity cannot be send in monetaryValue field in Algo. Please try sending in Cash Quantity field.
+(MainThread) 221015_12:34:50.074 ERROR wrapper.py:56 ERROR 714 200 No security definition has been found for the request
+(MainThread) 221015_12:34:50.107 ERROR wrapper.py:56 ERROR 704 200 No security definition has been found for the request
+(MainThread) 221015_12:34:50.109 ERROR wrapper.py:56 ERROR 705 200 No security definition has been found for the request
+(MainThread) 221015_12:34:50.111 ERROR wrapper.py:56 ERROR 713 442 Specified algorithm is not allowed for this order.
+(MainThread) 221015_12:34:50.112 ERROR wrapper.py:56 ERROR 712 442 Specified algorithm is not allowed for this order.
+(MainThread) 221015_12:34:50.381 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:eufarm
+(MainThread) 221015_12:34:58.753 ERROR wrapper.py:56 ERROR 663 163 The following order "ID:663" price exceeds 
+the Percentage constraint of 3%.
+Restriction is specified in Precautionary Settings of Global Configuration/Presets.
+(MainThread) 221015_12:34:59.757 ERROR wrapper.py:56 ERROR 670 163 The following order "ID:670" price exceeds 
+the Percentage constraint of 3%.
+Restriction is specified in Precautionary Settings of Global Configuration/Presets.
+(MainThread) 221015_12:34:59.760 ERROR wrapper.py:56 ERROR 659 163 The following order "ID:659" price exceeds 
+the Percentage constraint of 3%.
+Restriction is specified in Precautionary Settings of Global Configuration/Presets.
+(MainThread) 221015_12:34:59.762 ERROR wrapper.py:56 ERROR 664 163 The following order "ID:664" price exceeds 
+the Percentage constraint of 3%.
+Restriction is specified in Precautionary Settings of Global Configuration/Presets.
+(MainThread) 221015_12:34:59.764 ERROR wrapper.py:56 ERROR 671 163 The following order "ID:671" price exceeds 
+the Percentage constraint of 3%.
+Restriction is specified in Precautionary Settings of Global Configuration/Presets.
+(MainThread) 221015_12:34:59.766 ERROR wrapper.py:56 ERROR 673 163 The following order "ID:673" price exceeds 
+the Percentage constraint of 3%.
+Restriction is specified in Precautionary Settings of Global Configuration/Presets.
+(MainThread) 221015_12:34:59.788 ERROR wrapper.py:56 ERROR 697 383 The following order "ID:697" size exceeds the Size Limit of 3,000.
+Restriction is specified in Precautionary Settings of Global Configuration/Presets.
+(MainThread) 221015_12:34:59.823 ERROR wrapper.py:56 ERROR 668 399 Order Message:
+BUY 1 Combo
+Warning: your order will not be placed at the exchange until 2022-10-17 04:00:00 US/Eastern
+(MainThread) 221015_12:34:59.832 ERROR wrapper.py:56 ERROR 690 163 The following order "ID:690" price exceeds 
+the Percentage constraint of 3%.
+Restriction is specified in Precautionary Settings of Global Configuration/Presets.
+(MainThread) 221015_12:34:59.850 ERROR wrapper.py:56 ERROR 674 399 Order Message:
+BUY 1 IBKR NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2022-10-17 09:30:00 US/Eastern
+(MainThread) 221015_12:34:59.888 ERROR wrapper.py:56 ERROR 677 399 Order Message:
+BUY 1 IBKR NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2022-10-17 09:30:00 US/Eastern
+(MainThread) 221015_12:34:59.969 ERROR wrapper.py:56 ERROR 676 201 Order rejected - reason:Invalid time-in-force for at-the-closing order.
+(MainThread) 221015_12:35:00.823 ERROR wrapper.py:56 ERROR 706 201 Order rejected - reason:GTC orders are not allowed for Adaptive IB algorithmic orders.
+(MainThread) 221015_12:35:52.414 ERROR wrapper.py:56 ERROR 715 202 Order Canceled - reason:
+(MainThread) 221015_12:35:52.417 ERROR wrapper.py:56 ERROR 716 202 Order Canceled - reason:
+(MainThread) 221015_12:35:52.421 ERROR wrapper.py:56 ERROR 717 202 Order Canceled - reason:
+(MainThread) 221015_12:35:53.269 ERROR wrapper.py:56 ERROR 701 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555498
+(MainThread) 221015_12:35:53.298 ERROR wrapper.py:56 ERROR 701 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555498
+(MainThread) 221015_12:35:53.324 ERROR wrapper.py:56 ERROR 701 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555498
+(MainThread) 221015_12:35:53.332 ERROR wrapper.py:56 ERROR 701 202 Order Canceled - reason:
+(MainThread) 221015_12:35:53.509 ERROR wrapper.py:56 ERROR 700 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555497
+(MainThread) 221015_12:35:53.510 ERROR wrapper.py:56 ERROR 700 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555497
+(MainThread) 221015_12:35:53.511 ERROR wrapper.py:56 ERROR 700 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555497
+(MainThread) 221015_12:35:53.534 ERROR wrapper.py:56 ERROR 700 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555497
+(MainThread) 221015_12:35:53.567 ERROR wrapper.py:56 ERROR 700 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555497
+(MainThread) 221015_12:35:53.592 ERROR wrapper.py:56 ERROR 700 202 Order Canceled - reason:
+(MainThread) 221015_12:35:54.117 ERROR wrapper.py:56 ERROR 687 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555486
+(MainThread) 221015_12:35:54.143 ERROR wrapper.py:56 ERROR 687 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555486
+(MainThread) 221015_12:35:54.173 ERROR wrapper.py:56 ERROR 687 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555486
+(MainThread) 221015_12:35:54.179 ERROR wrapper.py:56 ERROR 687 202 Order Canceled - reason:
+(MainThread) 221015_12:35:54.342 ERROR wrapper.py:56 ERROR 686 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555485
+(MainThread) 221015_12:35:54.368 ERROR wrapper.py:56 ERROR 686 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555485
+(MainThread) 221015_12:35:54.388 ERROR wrapper.py:56 ERROR 686 202 Order Canceled - reason:
+(MainThread) 221015_12:35:54.548 ERROR wrapper.py:56 ERROR 685 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555484
+(MainThread) 221015_12:35:54.575 ERROR wrapper.py:56 ERROR 685 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555484
+(MainThread) 221015_12:35:54.601 ERROR wrapper.py:56 ERROR 685 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555484
+(MainThread) 221015_12:35:54.633 ERROR wrapper.py:56 ERROR 685 202 Order Canceled - reason:
+(MainThread) 221015_12:35:54.773 ERROR wrapper.py:56 ERROR 683 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555483
+(MainThread) 221015_12:35:54.774 ERROR wrapper.py:56 ERROR 683 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555483
+(MainThread) 221015_12:35:54.797 ERROR wrapper.py:56 ERROR 683 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555483
+(MainThread) 221015_12:35:54.817 ERROR wrapper.py:56 ERROR 683 202 Order Canceled - reason:
+(MainThread) 221015_12:35:54.970 ERROR wrapper.py:56 ERROR 682 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555482
+(MainThread) 221015_12:35:54.992 ERROR wrapper.py:56 ERROR 682 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555482
+(MainThread) 221015_12:35:55.014 ERROR wrapper.py:56 ERROR 682 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555482
+(MainThread) 221015_12:35:55.035 ERROR wrapper.py:56 ERROR 682 202 Order Canceled - reason:
+(MainThread) 221015_12:35:55.164 ERROR wrapper.py:56 ERROR 681 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555481
+(MainThread) 221015_12:35:55.187 ERROR wrapper.py:56 ERROR 681 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555481
+(MainThread) 221015_12:35:55.212 ERROR wrapper.py:56 ERROR 681 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555481
+(MainThread) 221015_12:35:55.227 ERROR wrapper.py:56 ERROR 681 202 Order Canceled - reason:
+(MainThread) 221015_12:35:55.383 ERROR wrapper.py:56 ERROR 679 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555480
+(MainThread) 221015_12:35:55.420 ERROR wrapper.py:56 ERROR 679 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555480
+(MainThread) 221015_12:35:55.445 ERROR wrapper.py:56 ERROR 679 202 Order Canceled - reason:
+(MainThread) 221015_12:35:55.561 ERROR wrapper.py:56 ERROR 678 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555479
+(MainThread) 221015_12:35:55.584 ERROR wrapper.py:56 ERROR 678 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555479
+(MainThread) 221015_12:35:55.601 ERROR wrapper.py:56 ERROR 678 202 Order Canceled - reason:
+(MainThread) 221015_12:35:55.765 ERROR wrapper.py:56 ERROR 677 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555478
+(MainThread) 221015_12:35:55.794 ERROR wrapper.py:56 ERROR 677 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555478
+(MainThread) 221015_12:35:55.822 ERROR wrapper.py:56 ERROR 677 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555478
+(MainThread) 221015_12:35:55.849 ERROR wrapper.py:56 ERROR 677 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555478
+(MainThread) 221015_12:35:55.870 ERROR wrapper.py:56 ERROR 677 202 Order Canceled - reason:
+(MainThread) 221015_12:35:56.005 ERROR wrapper.py:56 ERROR 675 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555476
+(MainThread) 221015_12:35:56.006 ERROR wrapper.py:56 ERROR 675 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555476
+(MainThread) 221015_12:35:56.032 ERROR wrapper.py:56 ERROR 675 202 Order Canceled - reason:
+(MainThread) 221015_12:35:56.177 ERROR wrapper.py:56 ERROR 674 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555475
+(MainThread) 221015_12:35:56.204 ERROR wrapper.py:56 ERROR 674 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555475
+(MainThread) 221015_12:35:56.232 ERROR wrapper.py:56 ERROR 674 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555475
+(MainThread) 221015_12:35:56.237 ERROR wrapper.py:56 ERROR 674 202 Order Canceled - reason:
+(MainThread) 221015_12:35:57.013 ERROR wrapper.py:56 ERROR 660 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555471
+(MainThread) 221015_12:35:57.039 ERROR wrapper.py:56 ERROR 660 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555471
+(MainThread) 221015_12:35:57.066 ERROR wrapper.py:56 ERROR 660 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555471
+(MainThread) 221015_12:35:57.079 ERROR wrapper.py:56 ERROR 660 202 Order Canceled - reason:
+(MainThread) 221015_12:35:57.430 ERROR wrapper.py:56 ERROR 694 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555469
+(MainThread) 221015_12:35:57.459 ERROR wrapper.py:56 ERROR 694 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555469
+(MainThread) 221015_12:35:57.495 ERROR wrapper.py:56 ERROR 694 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555469
+(MainThread) 221015_12:35:57.520 ERROR wrapper.py:56 ERROR 694 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555469
+(MainThread) 221015_12:35:57.553 ERROR wrapper.py:56 ERROR 694 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555469
+(MainThread) 221015_12:35:57.567 ERROR wrapper.py:56 ERROR 694 202 Order Canceled - reason:
+(MainThread) 221015_12:35:57.643 ERROR wrapper.py:56 ERROR 693 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555468
+(MainThread) 221015_12:35:57.673 ERROR wrapper.py:56 ERROR 693 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555468
+(MainThread) 221015_12:35:57.686 ERROR wrapper.py:56 ERROR 693 202 Order Canceled - reason:
+(MainThread) 221015_12:35:58.647 ERROR wrapper.py:56 ERROR 668 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555463
+(MainThread) 221015_12:35:58.678 ERROR wrapper.py:56 ERROR 668 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555463
+(MainThread) 221015_12:35:58.707 ERROR wrapper.py:56 ERROR 668 161 Cancel attempted when order is not in a cancellable state.  Order permId =803555463
+(MainThread) 221015_12:35:58.712 ERROR wrapper.py:56 ERROR 668 202 Order Canceled - reason:

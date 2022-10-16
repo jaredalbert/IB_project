@@ -1,0 +1,114 @@
+(MainThread) 221014_19:23:22.575 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm.nj
+(MainThread) 221014_19:23:22.577 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm
+(MainThread) 221014_19:23:22.578 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:hkhmds
+(MainThread) 221014_19:23:22.579 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:fundfarm
+(MainThread) 221014_19:23:22.581 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:ushmds
+(MainThread) 221014_19:23:22.582 ERROR wrapper.py:56 ERROR -1 2158 Sec-def data farm connection is OK:secdefil
+(MainThread) 221014_19:23:22.609 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.610 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.612 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.613 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.614 ERROR wrapper.py:56 ERROR 538 321 Error validating request.-'bN' : cause - The size value cannot be zero:
+(MainThread) 221014_19:23:22.615 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.616 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.617 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.618 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.619 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.620 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.621 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.622 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.623 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.623 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.624 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.625 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.626 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.626 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.627 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.628 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.628 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.629 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.630 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.631 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.632 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.632 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.633 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.634 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.635 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.636 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.636 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.637 ERROR wrapper.py:56 ERROR 539 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.638 ERROR wrapper.py:56 ERROR 539 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.639 ERROR wrapper.py:56 ERROR 540 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.640 ERROR wrapper.py:56 ERROR 540 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.641 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.641 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.642 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.643 ERROR wrapper.py:56 ERROR 538 320 Error reading request.Message id 538.  Missing parent order: server: 0 order: 538 parent: 538 hedge:[F]
+(MainThread) 221014_19:23:22.644 ERROR wrapper.py:56 ERROR 538 103 Duplicate order id
+(MainThread) 221014_19:23:22.644 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.645 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.647 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.648 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.649 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.651 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.652 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.653 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.654 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.655 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.656 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.657 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.659 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.660 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.661 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.662 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.663 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.664 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.665 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.666 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.667 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.667 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.668 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.669 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.670 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.670 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.671 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.672 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.673 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.674 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.674 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.675 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.676 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.677 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.678 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.679 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.681 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.682 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.683 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.684 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.685 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.686 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.687 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.688 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.689 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.690 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.691 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.692 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.693 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.694 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.694 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.695 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.696 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.697 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.698 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.699 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.700 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.701 ERROR wrapper.py:56 ERROR 538 2168 Warning: The 'EtradeOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.702 ERROR wrapper.py:56 ERROR 538 2169 Warning: The 'FirmQuoteOnly' order attribute is not supported.
+(MainThread) 221014_19:23:22.703 ERROR wrapper.py:56 ERROR 538 105 Order being modified does not match original order.
+(MainThread) 221014_19:23:22.717 ERROR wrapper.py:56 ERROR 538 163 The following order "ID:538" price exceeds 
+the Percentage constraint of 3%.
+Restriction is specified in Precautionary Settings of Global Configuration/Presets.
+(MainThread) 221014_19:23:22.719 ERROR wrapper.py:56 ERROR 538 163 The following order "ID:538" price exceeds 
+the Percentage constraint of 3%.
+Restriction is specified in Precautionary Settings of Global Configuration/Presets.
+(MainThread) 221014_19:23:26.272 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:eufarm

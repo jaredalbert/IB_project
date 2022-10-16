@@ -87,6 +87,14 @@ class TestClient(EClient):
     
     def __init__ (self, wrapper):
         EClient.__init__(self, wrapper)
+    
+
+    def openOrder(self, orderId, contract, order, orderState):
+        print('openOrder id:', orderId, contract.symbol, contract.secType, '@', contract.exchange,
+        ':', order.action, order.orderType, order.totalQuantity, orderState.status)
+
+    def reqAllOpenOrders(self):
+        return self.reqAllOpenOrders
 
     def server_clock(self):
 
@@ -119,7 +127,7 @@ class TestApp(TestWrapper, TestClient):
     def __init__(self, ipadressm, portid, clientid):
         TestWrapper.__init__(self)
         TestClient.__init__(self, wrapper=self)
-
+    
         #connects to the server with the ipaddress, portid, and clientid specified in the program
         self.connect(ipadressm, portid, clientid)
 
@@ -130,13 +138,19 @@ class TestApp(TestWrapper, TestClient):
 
         #start listening for errors
         self.init_error()
+"""     
+    def openOrder(self, orderId, contract, order, orderState):
+        print('openOrder id:', orderId, contract.symbol, contract.secType, '@', contract.exchange,
+              ':', order.action, order.orderType, order.totalQuantity, orderState.status)
+
+        self.reqAllOpenOrders() """
 
 
 
 def place_order():
     
     
-    print ('before start')
+    
     
     app = TestApp('127.0.0.1', 7497, 0)
     
@@ -144,11 +158,10 @@ def place_order():
 
     requested_time = app.server_clock()
 
+    print ('This is the current time from the server: ', requested_time)
     
-    print("")
-    print ('This is the current time from the server ')
-    print (requested_time)
 
+    app.reqAllOpenOrders()
     #app.disconnect()
     
     with open ('pickle.pk','rb') as file:#this persists the orderID since 
@@ -156,13 +169,17 @@ def place_order():
         
 
     time.sleep(2)
+    #app.reqAllOpenOrders()
+    
+
     orderExecution(app, order_id) 
 
     order_id+=1
     with open('pickle.pk', 'wb') as file:
         pickle.dump(order_id, file)
     
-    
+    app.reqAllOpenOrders()
+
     print(order_id)
     
 
