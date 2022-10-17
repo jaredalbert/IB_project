@@ -16,13 +16,16 @@ class TestApp(EWrapper, EClient):
         self.start()
 
     def orderStatus(self, orderId, status, filled, remaining, avgFillPrice, permId, parentId, lastFillPrice, clientId, whyHeld,mktCapPrice):
-        print("OrderStatus Id :", orderId, " ", status, " ", filled, remaining, avgFillPrice, permId, lastFillPrice, clientId, whyHeld, mktCapPrice)
-    
+        #keys=(orderId, status, filled, remaining, avgFillPrice, permId, parentId, lastFillPrice, clientId, whyHeld,mktCapPrice)
+        #items =("OrderStatus Id :", orderId, " ", status, " ", filled, remaining, avgFillPrice, permId, parentId, lastFillPrice, clientId, whyHeld, mktCapPrice)
+        #print (dict(zip(keys, items)))
+        pass
     def openOrder(self, orderId, contract, order, orderState):
-        print("openOrder id: ", orderId, contract, order, orderState)
-    
+        keys = ('orderId', 'contract', 'order', 'orderState')
+        items = ( orderId, contract, order, orderState)
+        print(dict(zip(keys, items)))
     def execDetails(self, reqId, contract, execution):
-        print('ExecDetails: ', reqid, contract.symbol, contract.secType, execution.execId, execution.orderId, execution.shares, execution.lastLiquidity)
+        #print('ExecDetails: ', reqid, contract.symbol, contract.secType, execution.execId, execution.orderId, execution.shares, execution.lastLiquidity)
     
         self.reqAllOpenOrders()
        
@@ -49,10 +52,10 @@ class TestApp(EWrapper, EClient):
     def stop(self):
         self.done = True
         self.disconnect()
-
+2101
 def main():
     app = TestApp()
-    app.nextValidID(0)
+    app.nextValidID(2103)
     app.connect('127.0.0.1', 7497, 0)
 
    
