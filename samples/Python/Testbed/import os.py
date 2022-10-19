@@ -62,6 +62,13 @@ def outer():
 x = outer()
     #return outer 
 
-if __name__ == '__main__':
-    x()
 
+
+def mult(x,y):
+    capture = x * y
+    return capture
+#print(capture)
+
+if __name__ == '__main__':
+    x = mult(2,3)
+    print(x)

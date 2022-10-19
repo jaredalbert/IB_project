@@ -3,6 +3,7 @@ from ibapi.wrapper import EWrapper
 from ibapi.contract import Contract
 from ibapi.order import * 
 from threading import Timer
+import pickle
 
 class TestApp(EWrapper, EClient):
     def __init__(self):
@@ -20,15 +21,24 @@ class TestApp(EWrapper, EClient):
         #items =("OrderStatus Id :", orderId, " ", status, " ", filled, remaining, avgFillPrice, permId, parentId, lastFillPrice, clientId, whyHeld, mktCapPrice)
         #print (dict(zip(keys, items)))
         pass
+    
     def openOrder(self, orderId, contract, order, orderState):
+        l=[]
         keys = ('orderId', 'contract', 'order', 'orderState')
         items = ( orderId, contract, order, orderState)
-        print(dict(zip(keys, items)))
+        dict_of_order_details = (dict(zip(keys, items)))
+        l.append(dict_of_order_details)
+        with open('pickle2.pk','ab+') as f:
+            pickle.dump(l, f)
+        print(f'order details: {l}')
+        print("")
+        print ('list of dictionaries: ', l)
+
     def execDetails(self, reqId, contract, execution):
         #print('ExecDetails: ', reqid, contract.symbol, contract.secType, execution.execId, execution.orderId, execution.shares, execution.lastLiquidity)
     
         self.reqAllOpenOrders()
-       
+        #return dict_of_order_details
 
     def start(self):
         contract = Contract()
@@ -52,7 +62,7 @@ class TestApp(EWrapper, EClient):
     def stop(self):
         self.done = True
         self.disconnect()
-2101
+
 def main():
     app = TestApp()
     app.nextValidID(2103)
@@ -63,6 +73,12 @@ def main():
     Timer(3, app.stop).start()
     app.start()
     app.reqAllOpenOrders()
+    with open('pickle2.pk','rb') as f:
+        x = pickle.load(f)
+    print(f'unpickled: {x}')
+    
+    
+
     app.run()
     
     
