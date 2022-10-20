@@ -1,14 +1,24 @@
 import pickle
+from turtle import right
+import regex as re
 
 with open('pickle2.pk', 'rb') as f:
     count = pickle.load(f)
 
 
 for c in count:
-    if 'SELL' in str(c.get('order')):
+    if 'BUY' in str(c.get('order')):
         print ('TRUE')
     else: 
         print('FALSE')
+    
+    print (c)
+    regex = re.compile(r'@[0-9]+.[0-9]+')
+    val = str(regex.findall(str(c.get('order'))))
+    print (f'price: {val[3:8]}')
+
+    regex = re.compile(r'USD.+')
+    print (regex.findall(str(c.get('order'))))
 
 
 
