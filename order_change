@@ -1,0 +1,14 @@
+import pickle
+
+with open('pickle2.pk', 'rb') as f:
+    count = pickle.load(f)
+
+
+for c in count:
+    if 'SELL' in str(c.get('order')):
+        print ('TRUE')
+    else: 
+        print('FALSE')
+
+
+
