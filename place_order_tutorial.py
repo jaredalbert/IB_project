@@ -5,6 +5,8 @@ from ibapi.order import *
 from threading import Timer
 import pickle
 
+l = []
+
 class TestApp(EWrapper, EClient):
     def __init__(self):
         EClient.__init__(self, self)
@@ -23,16 +25,17 @@ class TestApp(EWrapper, EClient):
         pass
     
     def openOrder(self, orderId, contract, order, orderState):
-        l=[]
+        global l
         keys = ('orderId', 'contract', 'order', 'orderState')
         items = ( orderId, contract, order, orderState)
         dict_of_order_details = (dict(zip(keys, items)))
         l.append(dict_of_order_details)
-        with open('pickle2.pk','ab+') as f:
+        with open('pickle2.pk','wb') as f:
             pickle.dump(l, f)
-        print(f'order details: {l}')
-        print("")
-        print ('list of dictionaries: ', l)
+        #print(f'order details: {l}')
+        #print("")
+        #print ('list of dictionaries: ', l)
+        return l
 
     def execDetails(self, reqId, contract, execution):
         #print('ExecDetails: ', reqid, contract.symbol, contract.secType, execution.execId, execution.orderId, execution.shares, execution.lastLiquidity)
@@ -64,6 +67,7 @@ class TestApp(EWrapper, EClient):
         self.disconnect()
 
 def main():
+    global l
     app = TestApp()
     app.nextValidID(2103)
     app.connect('127.0.0.1', 7497, 0)
@@ -73,14 +77,14 @@ def main():
     Timer(3, app.stop).start()
     app.start()
     app.reqAllOpenOrders()
-    with open('pickle2.pk','rb') as f:
-        x = pickle.load(f)
-    print(f'unpickled: {x}')
     
+    #print (l)
     
 
     app.run()
-    
+    with open('pickle2.pk', 'rb') as f:
+        orders = pickle.load(f)
+    print (orders)
     
 
 if __name__ == '__main__':
