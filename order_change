@@ -12,13 +12,15 @@ for c in count:
     else: 
         print('FALSE')
     
-    print (c)
+    print (f'c: {c}')
     regex = re.compile(r'@[0-9]+.[0-9]+')
     val = str(regex.findall(str(c.get('order'))))
     print (f'price: {val[3:8]}')
 
-    regex = re.compile(r'USD.+')
-    print (regex.findall(str(c.get('order'))))
+    regex = re.compile(r'[USD,],.,')
+    symbol =  str(regex.findall(str(c.get('contract'))))
+    print (f'symbol: {symbol}')
+
 
 
 
