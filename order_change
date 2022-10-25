@@ -8,18 +8,23 @@ with open('pickle2.pk', 'rb') as f:
 
 for c in count:
     if 'BUY' in str(c.get('order')):
-        print ('TRUE')
+        print ('BUY')
     else: 
-        print('FALSE')
+        print('SELL')
     
     print (f'c: {c}')
     regex = re.compile(r'@[0-9]+.[0-9]+')
     val = str(regex.findall(str(c.get('order'))))
     print (f'price: {val[3:8]}')
 
-    regex = re.compile(r'[USD,],.,')
-    symbol =  str(regex.findall(str(c.get('contract'))))
-    print (f'symbol: {symbol}')
+    #regex = re.compile(r'(\w+\s\w+)|(\w+)')
+    regex = re.compile(r'(\w+\s\w+)|(\w+)')
+    symbol =  (regex.findall(str(c.get('contract'))))
+    if symbol[1][1]:
+        print (symbol[1][1])
+    else:
+        print (symbol[1][0])
+    
 
 
 
