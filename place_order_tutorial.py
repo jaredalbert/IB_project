@@ -66,7 +66,7 @@ class TestApp(EWrapper, EClient):
         self.done = True
         self.disconnect()
 
-def main():
+def get_orders():
     global l
     app = TestApp()
     app.nextValidID(2103)
@@ -88,8 +88,8 @@ def main():
     print (orders)
     
 
-if __name__ == '__main__':
-    main()
+#if __name__ == '__main__':
+#   main()
 
 
 

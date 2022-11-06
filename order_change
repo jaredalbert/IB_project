@@ -1,6 +1,9 @@
 import pickle
-from turtle import right
 import regex as re
+from place_order_tutorial import get_orders
+
+get_orders()
+
 
 with open('pickle2.pk', 'rb') as f:
     count = pickle.load(f)
@@ -10,29 +13,34 @@ for c in count:
     #Buy or Sell
     if 'BUY' in str(c.get('order')):
         print ('BUY')
+        side = 'BUY'
     else: 
         print('SELL')
-    
+        side = 'SELL'
     #Price
     print (f'c: {c}')
     regex = re.compile(r'@[0-9]+.[0-9]+')
     val = str(regex.findall(str(c.get('order'))))
     print (f'price: {val[3:8]}')
+    price = val[3:8]
 
     #Symbol
     regex = re.compile(r'(\w+\s\w+)|(\w+)')
     symbol =  (regex.findall(str(c.get('contract'))))
     if symbol[1][1]:
         print (symbol[1][1])
+        symbol = symbol[1][1]
     else:
         print (symbol[1][0])
+        symbol = symbol[1][0]
 
     #Order Size
     regex = re.compile(r'[0-9]+@')
     size = (regex.findall(str(c.get('order'))))
     print (f'size: {size[0][:-1]}')
-    
+    size = size[0][:-1]
 
+    print(size, side, symbol, price)
 
 
 
