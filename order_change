@@ -8,7 +8,7 @@ get_orders()
 with open('pickle2.pk', 'rb') as f:
     count = pickle.load(f)
 
-
+l = []
 for c in count:
     #Buy or Sell
     if 'BUY' in str(c.get('order')):
@@ -41,6 +41,10 @@ for c in count:
     size = size[0][:-1]
 
     print(size, side, symbol, price)
+    l.append((size, side, symbol, price))
+print (l)
+with open('pickle3.pk', 'wb') as f:
+    pickle.dump(l, f)
 
 
 

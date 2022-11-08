@@ -1,0 +1,6 @@
+import pickle 
+
+with open('pickle3.pk', 'wb') as f:
+    orders = pickle.load(f)
+
+print (f)
