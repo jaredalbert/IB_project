@@ -4,6 +4,7 @@ from ibapi.contract import Contract
 from ibapi.order import * 
 from threading import Timer
 import pickle
+from time import sleep
 
 l = []
 
@@ -57,10 +58,17 @@ class TestApp(EWrapper, EClient):
         order.totalQuantity = 10
         order.transmit = True
         order.orderType = 'LMT'
-        order.lmtPrice = 15
+        order.lmtPrice = 15.10
 
         self.placeOrder(self.nextOrderId, contract, order)
         
+    
+
+        
+
+
+        
+
 
     def stop(self):
         self.done = True
@@ -69,7 +77,7 @@ class TestApp(EWrapper, EClient):
 def get_orders():
     global l
     app = TestApp()
-    app.nextValidID(2103)
+    app.nextValidID(8029)
     app.connect('127.0.0.1', 7497, 0)
 
    
@@ -77,7 +85,8 @@ def get_orders():
     Timer(3, app.stop).start()
     app.start()
     app.reqAllOpenOrders()
-    
+    #sleep(3)
+    #app.cancelOrder(8027)
     #print (l)
     
 
@@ -88,8 +97,8 @@ def get_orders():
     print (orders)
     
 
-#if __name__ == '__main__':
-#   main()
+if __name__ == '__main__':
+   get_orders()
 
 
 
