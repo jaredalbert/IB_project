@@ -85,6 +85,8 @@ def get_orders():
     Timer(3, app.stop).start()
     app.start()
     app.reqAllOpenOrders()
+    app.reqAutoOpenOrders(True)
+    app.reqOpenOrders()
     #sleep(3)
     #app.cancelOrder(8027)
     #print (l)

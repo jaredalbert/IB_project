@@ -41,9 +41,9 @@ for c in count:
     size = size[0][:-1]
 
     #Order ID
-    regex = re.compile(r'[0-9]+')
-    order_id = (regex.findall(str(c.get('order'))))[2]
-    #order_id = c.get('order')
+    #regex = re.compile(r'[0-9]+')
+    #order_id = (regex.findall(str(c.get('order'))))[0]
+    order_id = c.get('orderId')
     print(f'order_id: {order_id}')
 
     print(size, side, symbol, price, order_id )
