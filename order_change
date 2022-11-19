@@ -40,11 +40,23 @@ for c in count:
     print (f'size: {size[0][:-1]}')
     size = size[0][:-1]
 
-    print(size, side, symbol, price)
-    l.append((size, side, symbol, price))
+    #Order ID
+    regex = re.compile(r'[0-9]+')
+    order_id = (regex.findall(str(c.get('order'))))[2]
+    #order_id = c.get('order')
+    print(f'order_id: {order_id}')
+
+    print(size, side, symbol, price, order_id )
+    l.append((size, side, symbol, price, order_id ))
+
+    
+
 print (l)
 with open('pickle3.pk', 'wb') as f:
     pickle.dump(l, f)
+
+
+#To resubmit the order broken up, I need to first cancel the old order
 
 
 
